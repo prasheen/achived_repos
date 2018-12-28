@@ -1,5 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
+set -e
 # Script to backup git repo to prasheen graveyard repo
 # Based on https://gist.github.com/philippb/1988919
 
