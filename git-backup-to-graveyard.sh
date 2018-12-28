@@ -34,7 +34,7 @@ git add . && git commit -a -m "Backing up $repository" && git push
 echo "Succesfully backed up $repository"
 
 if [ -z $GITHUB_TOKEN ]; then
-  echo "Sorry cannot delete the repo from prasheen's github. GITHUB_TOKEN must be set"
+  echo "Sorry cannot delete the repo from prasheen's github. GITHUB_TOKEN must be set. $GITHUB_TOKEN"
 else
   read -p "Do you want to delete the repo on github.com?" -n 1 -r
   echo ""
